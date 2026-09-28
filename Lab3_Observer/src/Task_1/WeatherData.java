@@ -20,7 +20,6 @@ public class WeatherData {
         return WeatherStation.PRESSURE;
     }
 
-    //вызывается при каждом показании датчика
     public void measurementsChanged() {
         float temp = getTemperature();
         float humidity = getHumidity();
