@@ -3,6 +3,7 @@ package org.example;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 
 import java.util.Random;
 
@@ -115,13 +116,15 @@ public class AppTest {
         }
     }
 
-    @Test
-    public void failTests() {
-        Logic logic = new Logic();
-        String[] tests = {"43+32", "43-66", "458*234", "24/432"};
-        double[] answers = {12, 13, 14, 15};
-        for (int i = 0; i < 4; i++) {
-            assertEquals(logic.startCalc(tests[i]), answers[i]);
-        }
-    }
+
+//    @Disabled
+//    @Test
+//    public void failTests() {
+//        Logic logic = new Logic();
+//        String[] tests = {"43+32", "43-66", "458*234", "24/432"};
+//        double[] answers = {12, 13, 14, 15};
+//        for (int i = 0; i < 4; i++) {
+//            assertEquals(logic.startCalc(tests[i]), answers[i]);
+//        }
+//    }
 }
