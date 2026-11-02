@@ -3,4 +3,5 @@ out/
 target/
 *.iml
 .DS_Store
+wildfly-42.0.0.Final/
 
