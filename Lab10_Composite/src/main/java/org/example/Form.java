@@ -1,9 +1,8 @@
 package org.example;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class Form implements Component{
+public class Form implements Component {
     private String type = "Form";
     private String id;
     private final ArrayList<Component> componentList = new ArrayList<>();

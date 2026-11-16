@@ -48,7 +48,6 @@ public class XMLExportVisitor implements Visitor {
                 .append("    <id>").append(cs.getId()).append("</id>\n");
         for (Shape shape : cs.getChildren()) {
             String obj = shape.accept(this);
-            // Добавляем отступы для дочерних элементов структуры
             obj = "    " + obj.replace("\n", "\n    ");
             sb.append(obj).append("\n");
         }

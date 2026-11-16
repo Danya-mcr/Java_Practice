@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-
 public final class DayClass {
 
     private final String name;
@@ -44,4 +42,5 @@ public final class DayClass {
         return name;
     }
 
+    //spring aop - аспектно-ориентированное программирование
 }

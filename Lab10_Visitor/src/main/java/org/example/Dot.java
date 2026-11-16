@@ -12,17 +12,16 @@ public class Dot implements Shape {
     }
 
     @Override
-    public void move(int x, int y) { /* Логика перемещения */ }
+    public void move(int x, int y) { }
 
     @Override
-    public void draw() { /* Логика отрисовки */ }
+    public void draw() {}
 
     @Override
     public String accept(Visitor visitor) {
         return visitor.visitDot(this);
     }
 
-    // Геттеры для посетителя
     public int getId() { return id; }
     public int getX() { return x; }
     public int getY() { return y; }

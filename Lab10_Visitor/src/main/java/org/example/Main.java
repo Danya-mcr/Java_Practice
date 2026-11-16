@@ -13,7 +13,6 @@ public class Main {
 
         XMLExportVisitor exportVisitor = new XMLExportVisitor();
 
-        // Экспортируем одиночную фигуру и составную структуру
         String xmlResult = exportVisitor.export(rectangle, compoundShape);
         System.out.println(xmlResult);
     }
